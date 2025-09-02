@@ -6,4 +6,4 @@ try:
         print(f"{num} x {i} = {num * i} ✅")
 
 except ValueError:
-    print("❌ Invalid input! Please enter a valid number.")
+    print("❌ Invalid input! Please enter a valid number.") # validation prevents user from entering a non-number, caught by except. 
